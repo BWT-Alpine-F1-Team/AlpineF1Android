@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="FD.android.Renault.Alpine.AlpineF1.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_team_view"
+        android:name="FD.android.Renault.Alpine.AlpineF1.ui.team_view.TeamFragment"
+        android:label="@string/title_team_view"
+        tools:layout="@layout/fragment_team_view" />
+
+    <fragment
+        android:id="@+id/navigation_car"
+        android:name="FD.android.Renault.Alpine.AlpineF1.ui.car.CarFragment"
+        android:label="@string/title_car"
+        tools:layout="@layout/fragment_car" />
+
+    <fragment
+        android:id="@+id/navigation_actus"
+        android:name="FD.android.Renault.Alpine.AlpineF1.ui.actus.ActusFragment"
+        android:label="@string/title_actus"
+        tools:layout="@layout/fragment_actus" />
+</navigation>
